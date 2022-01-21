@@ -1,0 +1,173 @@
+@media screen and (max-width: 767px) {
+  .bottom-chat {
+    position: fixed !important;
+    z-index: 1000;
+    width: 100vw !important;
+    bottom: 0;
+    left: 0 !important;
+    background: none !important;
+  }
+
+  .bottom-chat .nn_seller_msg {
+    width: 100vw !important;
+    justify-content: space-between !important;
+    background-color: white !important;
+  }
+
+  .nn_pro_chatbtn {
+    margin-right: 20px !important;
+  }
+
+  .mesg_conver {
+    bottom: 75px !important;
+  }
+
+  .nn_pro_chatbtn .nn_buynowbtn {
+    height: 40px !important;
+    padding: 5px !important;
+    margin: 10px 0 !important;
+  }
+
+  .nn_prochatbtn1 {
+    height: 40px !important;
+    margin: 10px 0 !important;
+    margin-left: 12px !important;
+  }
+
+  .nn_prochatbtn1 a::after {
+    top: 9px !important;
+  }
+}
+
+.nn_pro_amt .nn_currency {
+  color: black !important;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+}
+
+.description-product p {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+.hours-cal {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.nn_hours_cal ul li,
+.nn_hours_cal ul li b {
+  font-size: 16px !important;
+}
+
+.bottom-chat.nonebtn {
+  bottom: 0px !important;
+}
+
+.nn_bttn svg {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.nn_pro_chatbtn .nn_buynowbtn {
+  background-color: limegreen !important;
+  color: yellow !important;
+  font-size: 20px !important;
+}
+
+.mesg_conver {
+  background: #00afff !important;
+}
+
+.mesg_conver svg {
+  fill: white !important;
+}
+
+@media screen and (min-width: 768px) {
+  #test_chat {
+    bottom: -30px !important;
+  }
+  .nn_buybtn .nn_buynowbtn {
+    width: 260px !important;
+  }
+  .nn_seller_msg .nn_chatname {
+    width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .nn_prochatbtn1 .nn_chatname {
+    width: 160px !important;
+  }
+  .nn_pro_chatbtn .nn_buynowbtn {
+    width: 220px !important;
+    min-width: 220px !important;
+  }
+}
+@media screen and (max-width: 490px) {
+  .nn_prochatbtn1 .nn_chatname {
+    width: 150px !important;
+  }
+  .nn_pro_chatbtn .nn_buynowbtn {
+    width: 210px !important;
+    min-width: 220px !important;
+  }
+}
+@media screen and (max-width: 467px) {
+  .nn_prochatbtn1 {
+    width: 200px !important;
+  }
+  .nn_pro_chatbtn .nn_buynowbtn {
+    width: 200px !important;
+    min-width: 200px !important;
+  }
+}
+@media screen and (max-width: 435px) {
+  .nn_prochatbtn1 {
+    width: 190px !important;
+  }
+  .nn_pro_chatbtn .nn_buynowbtn {
+    width: 190px !important;
+    min-width: 190px !important;
+  }
+}
+@media screen and (max-width: 415px) {
+  .nn_prochatbtn1 {
+    width: 180px !important;
+  }
+  .nn_pro_chatbtn .nn_buynowbtn {
+    width: 180px !important;
+    min-width: 180px !important;
+  }
+}
+@media screen and (max-width: 395px) {
+  .nn_prochatbtn1 {
+    width: 170px !important;
+  }
+  .nn_pro_chatbtn .nn_buynowbtn {
+    width: 170px !important;
+    min-width: 170px !important;
+  }
+}
+@media screen and (max-width: 372px) {
+  .nn_prochatbtn1 {
+    width: 160px !important;
+  }
+  .nn_pro_chatbtn .nn_buynowbtn {
+    width: 160px !important;
+    min-width: 160px !important;
+  }
+  .nn_prochatbtn1 a::after {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .nn_prochatbtn1 {
+    width: 150px !important;
+  }
+  .nn_pro_chatbtn .nn_buynowbtn {
+    width: 150px !important;
+    min-width: 150px !important;
+  }
+}
